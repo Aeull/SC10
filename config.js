@@ -2,13 +2,40 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // Website Api
-global.APIs = {
-	zenz: 'https://zenzapi.xyz',
+// name: 'https://website'
+  nrtm: 'https://nurutomo.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
+  xteam: 'https://api.xteam.xyz',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  lol: 'https://api.lolhuman.xyz',
+  dhnjing: 'https://dhnjing.xyz',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  zeks: 'https://api.zeks.me',
+  pencarikode: 'https://pencarikode.xyz',
+  ana: 'https://anabotofc.herokuapp.com/',
+  amel: 'https://melcanz.com',
+  hardianto: 'https://hardianto.xyz',
+  botstyle: 'https://botstyle-api.herokuapp.com',
+  adiisus: 'https://adiixyzapi.herokuapp.com',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  kanx: 'https://kannxapi.herokuapp.com/'
 }
 
 // Apikey Website Api
-global.APIKeys = {
-	'https://zenzapi.xyz': 'apivinz',
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
+  'https://api.xteam.xyz': 'APIKEY',
+  'https://anabotofc.herokuapp.com/': 'APIKEY',
+  'https://api.lolhuman.xyz': 'Deffbotz',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://melcanz.com': 'elaina',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://botstyle-api.herokuapp.com': 'APIKEY',
+  'https://hardianto.xyz': 'hardianto',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
 //api
