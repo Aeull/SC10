@@ -8,12 +8,12 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'Your Key',
+	'https://zenzapi.xyz': 'apivinz',
 }
 
 //api
 global.xteam = 'apivproject'
-global.lolhuman = 'yourkey'
+global.lolhuman = 'Deffbotz'
 
 // Other
 global.owner = ['6285822347348']
