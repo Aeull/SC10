@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+botname = 'Arullbotz'
+wm = '© Arullbotz'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -105,17 +105,17 @@ if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
 		if (!('autobio' in setting)) setting.autobio = false
-		if (!('templateImage' in setting)) setting.templateImage = true
+		if (!('templateImage' in setting)) setting.templateImage = false
 		if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
-		if (!('templateMsg' in setting)) setting.templateMsg = false	
+		if (!('templateMsg' in setting)) setting.templateMsg = true	
 	} else global.db.data.settings[botNumber] = {
 		status: 0,
 		autobio: false,
-		templateImage: true,
+		templateImage: false,
 		templateVideo: false,
 		templateGif: false,
-		templateMsg: false,
+		templateMsg: true,
 	}
 	
 } catch (err) {
@@ -658,19 +658,19 @@ break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
+⌕ Script :Usaha Diyt banyak
 
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
-⌕ Paypal : kaga ada
+Jangan lupa Donasi.
+⌕ Donate : 085822347348 (Dana / Pulsa IM3)
+⌕ Saweria : _
+⌕ Paypal : _
 
 Dont Forget Donate
 `
 	let btn = [{
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/naando.jpeg'
+url: 'https://instagram.com/sahrulwara_____'
 }
 }]
 zets.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -684,6 +684,9 @@ Yahya Ganzz
 ⌕ https://github.com/AzzBott679
 ⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
 
+Arull
+⌕ https://github.com/Warikrr
+⌕ https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg
 `
 	let btn = [{
 urlButton: {
